@@ -1,7 +1,8 @@
 # NIS_distinctiveness
 This repository contains all the compiled data, code and further generated data from the work "**A trait-based approach to assess niche overlap and functional distinctiveness between non-indigenous and native species**" authored by Antoni Vivó-Pons, Mats Blomqvist, Anna Törnroos and Martin Lindegren.
 
-**_IMPORTANT NOTE_**: ALL the plots and figure panels shown in the manuscript were post-processed in Adobe Illustrator, therefore the "raw" versions of the plots obtained with the following code might have different variable names or not be gathered in the same way as they appear in the manuscript. Additionally, the NIS illustrations shown within some figures were also created using Adobe Illustrator. In any case, the provided code allows for obtaining identical, but raw versions of all the figures included in the manuscript. 
+**_IMPORTANT_**: ALL the plots and figure panels shown in the manuscript were post-processed in Adobe Illustrator, therefore the "raw" versions of the plots obtained with the following code might have different variable names or not be gathered in the same way as they appear in the manuscript. Additionally, the NIS illustrations shown within some figures were also created using Adobe Illustrator. 
+In any case, the provided code allows for obtaining identical, but raw versions of all the figures included in the manuscript. 
 
 ## Data description
 The folder **Raw_data** contains the original data files from which all the other databases included in the **Data** folder are derived.

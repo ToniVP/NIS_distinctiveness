@@ -7,19 +7,19 @@ This repository contains all the compiled data, code and further generated data 
 The folder **Raw_data** contains the original data files from which all the other databases included in the **Data** folder are derived.
 
 #### Raw_data
-- _env_data.txt_ contains all the environmental data extracted from the ice-ocean NEMO nordic model.
-- _sp_status.txt_ accounts for the name, phylum and origin (native or NIS) from all the included taxa.
-- _sp_traits_raw.txt_ trait information for all species.
-- _species_AFDW_2005_2020.txt_ species abundance measures (n individuals, wet weight, AFDW) and details for all the specific sampling events
-- _species_site_AFDW_2005.txt_ site x species biomass (AFDW) matrix
+- _env_data.txt_; contains all the environmental data extracted from the ice-ocean NEMO nordic model.
+- _sp_status.txt_; accounts for the name, phylum and origin (native or NIS) from all the included taxa.
+- _sp_traits_raw.txt_; trait information for all species.
+- _species_AFDW_2005_2020.txt_; species abundance measures (n individuals, wet weight, AFDW) and details for all the specific sampling events
+- _species_site_AFDW_2005.txt_; site x species biomass (AFDW) matrix
 
 #### Data
-- _Di_metrics_station.txt_ several metrics obtained at local scale, in each sampling event, including NIS local distinctiveness, species richness and Shannon index, among others.
-- _Trait_modalities_ list with all the trait and corresponding modalities.
-- _dist_matrix_ovrll.txt_ overall pairwise matrix of functional distances between species.
-- _sp_traits.txt_ cleaned species traits used in the analysis.
-- _spe_index.txt_ distinctiveness values for all species in the regional pool.
-- _traits.effects.txt_ effect of each trait on regional distinctiveness for each species. 
+- _Di_metrics_station.txt_; several metrics obtained at local scale, in each sampling event, including NIS local distinctiveness, species richness and Shannon index, among others.
+- _Trait_modalities_; list with all the trait and corresponding modalities.
+- _dist_matrix_ovrll.txt_; overall pairwise matrix of functional distances between species.
+- _sp_traits.txt_; cleaned species traits used in the analysis.
+- _spe_index.txt_; distinctiveness values for all species in the regional pool.
+- _traits.effects.txt_; effect of each trait on regional distinctiveness for each species. 
 
 ## Code description
 [Libraries](https://github.com/ToniVP/NIS_distinctiveness/blob/main/Code/Libraries.R). List of required libraries.

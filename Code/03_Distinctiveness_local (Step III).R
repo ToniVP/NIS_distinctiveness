@@ -92,6 +92,9 @@ stationdi <- stationdi[which(stationdi$richness != 1),] #delete those stations t
 #write.table(stationdi,file="./Data/Di_metrics_station.txt",sep="\t", row.names = TRUE)
 
 # 3.2 Check the spatial autocorrelation for all the sampled locations; Moran's I test ----
+data<-read.csv("./Data/Di_metrics_station.txt",header=T,dec=".",sep="\t", check.names = FALSE)
+datat <- data
+
 Mor = data.frame()
 autocorr <- c("non_NIS_Di", "mean_NIS_Di", "Marenzelleria", "Mya.arenaria", "Potamopyrgus.antipodarum","Streblospio.benedicti", "Polydora.cornuta")
 for (i in 1:length(autocorr)){
@@ -185,7 +188,7 @@ for (i in 1:length(NIS)){
   kriging_result= autoKrige(var~1, temp)
   Kriging=as.data.frame(kriging_result$krige_output); Kriging<-fortify(Kriging)
   
-  if(NIS[i] == "Mya.arenaria"){ncol = 50} else {ncol = 90}
+  if(NIS[i] == "Mya.arenaria"){ncol = 60} else {ncol = 90}
   
   #Rasterize the linear interpolation to crop it for our interest area
   coords <- cbind(Kriging$x1, Kriging$x2)
